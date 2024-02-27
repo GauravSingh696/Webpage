@@ -1,0 +1,175 @@
+body
+{
+    margin: 0px;
+    position: sticky;
+    background-size: cover;
+    background-image: url(./background\ image.jpg);
+}
+
+header
+{
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 35%;
+}
+
+.s1
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.d1
+{
+    color: rgb(39, 39, 253);
+    margin-left: 75px;
+    font-size: 30px;
+}
+
+.d2
+{
+    background-color: black;
+    width: 2px;
+    height: 35px;
+    margin: 0px 6px 0px 6px;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(39, 39, 253);
+}
+
+.list1
+{
+    padding: 0px;
+    margin: 0px 16px 0px 16px;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.list2
+{
+    display: none;
+    list-style-type: none;
+}
+
+.list1 :hover .list2
+{
+    padding: 0px;
+    margin-left: 20px;
+    gap: 20px;
+    display: block;
+    position: absolute;
+}
+
+/* ========================================================================== */
+
+.s2
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
+
+.i1
+{
+    width: 13px;
+}
+
+.btn1
+{
+    cursor: pointer;
+    padding: 4px 20px 4px 20px;
+    background-color: rgb(39, 39, 253);
+    border-radius: 8px;
+    color: aliceblue;
+    border-color: #1034a6;
+}
+
+/* ========================================================================== */
+
+main
+{
+    display: flex;
+    gap: 30%;
+    padding: 0px 75px 0px 75px;
+}
+
+.s3
+{
+    margin-top: 30px;
+}
+
+.d3
+{
+    display: flex;
+    justify-content: left;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.cir1
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #f9bf51;
+}
+
+.cir2
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: palevioletred;
+}
+
+.cir3
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #40a8c5;
+}
+
+.d4
+{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+/* =========================================================================================== */
+
+footer
+{
+    display: flex;
+    gap: 50px;
+    padding: 0px 75px 0px 75px;
+}
+
+.box
+{
+    width: 350px;
+    height: 130px;
+    border-radius: 15px;
+    background-color: #d3dddd;
+    padding: 25px;
+    text-align: center;
+}
+
+.design
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
